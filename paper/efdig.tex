@@ -2,6 +2,46 @@
 
 \begin{document}\frenchspacing\raggedbottom\sloppy\sloppypar
 
-Hello World!
+\subsection*{Expected Future Discounted Information Gain:\\
+An objective for making real-time observing decisions}
+
+\noindent
+\textbf{David W. Hogg} and \textbf{Megan Bedell}\\
+\textsl{Flatiron Institute, a division of the Simons Foundation, New York City}
+
+\paragraph{Abstract:}
+The next generation of extreme-precision radial-velocity experiments to find or
+confirm extra-solar planet discoveries will have to use some kind of algorithmic
+decision-making if they want to maixmize their statistical power and legacy value.
+There has been work on algorithmic scheduling of observations,
+based on Bayesian decision theory.
+Most of this work has focused on some kind of expected information gain,
+and thought in terms of building a full-survey schedule of
+observations.
+Because of weather, time-domain interrupts, and other
+unpredictable factors, observation planning is a real-time activity at the telescope,
+with final target decisions made only hours or minutes before the shutter opens;
+this motivates thinking about real-time decisions (rather than full-survey planning).
+Discoveries made sooner are more valuable than discoveries
+made later; that is, scientists have an effective discount rate on the information
+they seek; this motivates thinking about discounted objectives.
+And, previously unobserved stars don't have known values for systemic velocity,
+variability, or activity, so the first few observations made of a star don't themselves
+bring much information about exoplanet companions; that is, the point of an observation
+is not just to learn, but to make opportunities for future learning.
+All these considerations lead us to develop an objective for making real-time observing
+decisions that involves the expectation value of future-discounted information gain (EFDIG).
+We develop, analyze, and criticize the EFDIG, and propose practical methods for computing
+it in real-time applications.
+We concentrate on two simple cases:
+A \textsl{Terra-Hunting-Experiment}-like setting in which
+dozens of stars will be monitored for a decade,
+and A \textsl{TESS}-follow-up-like setting in which
+individually observed single transits need to be confirmed as coming from long-period planets,
+but the objective and the analysis is general.
+
+\section{Introduction}
+
+Talk to me.
 
 \end{document}
